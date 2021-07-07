@@ -3,7 +3,7 @@ require_once('bootstrap.php');
 if(isset($_SESSION['loggedUser'])){
   header('Location: index.php');
   //kad je korisnik logovan, ne moze se vratiti na login stranicu
-  //preko url
+  //preko url ili na drugi nacin
 }
 
 if(isset($_POST['register'])){
