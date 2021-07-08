@@ -71,6 +71,7 @@
 
           $email = $_POST['login_email'];
           $password = $_POST['login_password'];
+          $password = hash("md5",$password);
 
           $sql ="SELECT * FROM users WHERE email = ? AND password = ?";
           $query = $this->db->prepare($sql);

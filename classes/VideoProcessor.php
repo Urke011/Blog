@@ -6,7 +6,7 @@
         private $allowedTypes = array("mp4","avi","webm");
         public function upload($uploadFormData){
           //path gde se cuva fajl
-          $targetDir = "uploads/videos";
+          $targetDir = "classes/uploads/videos";
           //cuvanje video fajla u varijabli
           $videoData = $uploadFormData->videoArray;
           //pravljenje privremenog video fajla
