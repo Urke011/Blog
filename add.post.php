@@ -6,6 +6,7 @@ if(!isset($_SESSION['loggedUser'])){
 
 if(isset($_POST['butSub'])){
   $post->insertPost();
+  //class Post
 }
 
 
